@@ -1,0 +1,277 @@
+
+
+h1 {
+    font-family: Cinzel;
+    color:#925f17;
+    text-align: center;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+      font-family:'Montserrat';
+}
+ 
+.pageno {
+    color: gray;
+    font-size: 85%;
+    text-align: left;
+}
+  
+/*navigation bar*/
+
+nav{
+    background-color: #e8b12d;
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width:20%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.navbar {
+    background-color: #e8b12d;
+    display:block;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 1%;
+}
+
+.navbar a {
+    color:white;
+}
+
+.navbar li:hover {
+    background-color: white;
+}
+.navbar a:hover {
+    color:#925f17;
+}
+
+/*carousel*/
+
+.books-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3%;
+}
+
+.books img {
+    width: 20%;
+    margin:2px;
+}
+.books {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.featured {
+    margin-left:20%;
+    margin-right: 20%;
+    width: 70%;
+    display: table;
+    float: right;
+    margin-bottom: 5%;
+}
+
+.featured img {
+    width: 50%;
+    float: right;
+    margin: 2%;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 5%;
+}
+
+.featured-description {
+    width:50%;
+    margin-left:20%;
+    margin-right: 20%;
+    margin-bottom: 30%;
+    vertical-align: middle;
+    display: table-cell;
+    padding-left:1%;
+}
+
+/*about us*/
+.aboutus {
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.aboutus img {
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+}
+/*
+.librarypics {
+    width: 50%;
+    float: right;
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 5%;
+}
+/*
+.librarypics img {
+    width: 100%;
+    float: right;
+    margin: 2%;
+    vertical-align: middle;
+    margin-top: 5%;
+}
+*/
+.aboutus-text {
+    width:50%;
+    margin-left: 5%;
+    margin-right: 20%;
+    vertical-align: middle;
+    display: table-cell;
+    font-family: Cinzel;
+    color: #925f17;
+}
+
+/*buttons*/
+.buy-now {
+    width: 100%;
+    margin:1%;
+    background-color: #925f17;
+    color: white;
+    padding: 3%;
+    cursor: pointer;
+    border: none;
+}
+
+.add-cart {
+    width: 100%;
+    margin:1%;
+    background-color: #e8b12d;
+    color: white;
+    padding: 3%;
+    cursor: pointer;
+    border: none;
+}
+
+.cart {
+    background-color: #925f17;
+}
+
+.staff {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    font-family: Cinzel;
+    color: #925f17;
+}
+/* other */
+
+#name {
+    color: #925f17;
+}
+
+#position {
+    font-style: italic;
+    color: #e8b12d;
+}
+
+#email {
+    padding-bottom: 5%;
+}
+
+/*footer*/
+footer{
+    background-color: #925f17;
+    color: white;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0.5%;
+    text-align: center;
+}
+
+/*socials*/
+.socials {
+    width:50%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+.socials li {
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+    size: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.socials a {
+    color:#925f17;
+}
+
+
+
+.all {
+   margin-top: 2%;
+   margin-bottom: 2%
+}
+
+
+.portfolio {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio a {
+    width:100%
+}
+
+.portfolio img {
+    width: 100%;
+    padding: 1%;
+}
+
+input[type=text] {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    align-content: center;
+}
+
+.form {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    align-content: center;
+}
